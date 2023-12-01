@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+body{
+    background: linear-gradient(-135deg, rgb(0, 0, 148), rgb(73, 5, 161));;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, blue, purple);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: 75px;
+    overflow: hidden;
+}
+
+.list-div {
+    width: 500px;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 47);
+}
+
+.list {
+    color: white;
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin-left: 50px;
+    transition: ease all 0.5s;
+}
+
+a {
+    color: white;
+    transition: font-size 0.15s;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+a:hover {
+    font-size: 18px;
+}
+
+.socials {
+    color: white;
+    transition: all 0.15s;
+    line-height: 2;
+}
+
+.socials:hover {
+    font-size: 16px;
+    color: rgb(0, 0, 47);
+}
+
+.links li{
+    color: rgb(0, 0, 47 );
+}
+
+@media screen and (max-width: 430px) {
+   .list {
+      margin-left: 100px;
+   }
+  }
+@media screen and (max-width: 330px) {
+   .list {
+      margin-left: 150px;
+   }
+  }
