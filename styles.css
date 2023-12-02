@@ -21,7 +21,7 @@ body {
   max-width: 500px;
   height: 500px;
   border-radius: 50px;
-  margin-top: auto;
+  margin-top: 75px;
   overflow: hidden;
 }
 
@@ -67,7 +67,8 @@ ul {
   border-radius: 10px;
   width: 175px;
   margin-top: 20px;
-  display: flex;
+  margin: auto 0;
+  margin-top: 5px;
 }
 
 .socials {
@@ -95,3 +96,36 @@ ul {
     margin-left: 150px;
   }
 }
+@media screen and (min-height: 760px) {
+    .social-container {
+        margin-top: calc(58.9vh - 375px);
+    }
+    .gradient-bg {
+        margin-top: 125px;
+      }
+}
+
+.hi {
+    color: rgb(0, 0, 47);
+}
+
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #16007a rgb(0, 0, 148);
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgb(0, 0, 148);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #16007a;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 148);
+  }
