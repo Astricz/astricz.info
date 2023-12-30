@@ -42,6 +42,7 @@ body {
 .socials {
   display: flex;
   align-items: last baseline;
+  min-width: 150px;
 }
 
 .socials button {
@@ -52,8 +53,8 @@ body {
   position: relative;
   background: inherit;
   overflow: hidden;
-  width: 150px;
   height: 35px;
+  width: 150px;
   margin: 15px;
   border-radius: 9px;
   border-style: none;
